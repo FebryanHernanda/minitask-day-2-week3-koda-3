@@ -83,3 +83,14 @@ button:hover {
   background-color: blue;
   cursor: pointer;
 }
+
+body > p::before {
+  content: "First Paragraph This: ";
+}
+body > p::after {
+  content: "Last Paragraph This ";
+  text-decoration: underline;
+}
+body > p::first-line {
+  color: black;
+}
