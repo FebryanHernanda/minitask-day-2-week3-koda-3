@@ -1,20 +1,24 @@
+/* Nomor 3 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Nomor 4 */
 :root {
-  --text-red: red;
-  --text-blue: blue;
-  --text-gray: gray;
+  --red: red;
+  --blue: blue;
+  --gray: gray;
 }
 
+/* Nomor 5 */
 p {
   font-size: 24px;
-  color: var(--text-gray);
+  color: var(--gray);
 }
 
+/* Nomor 6 */
 li {
   background-color: aqua;
 }
@@ -28,13 +32,15 @@ li {
   font-weight: bolder;
 }
 
-li.list-3 {
-  font-size: 90px;
-}
+/* Nomor 7 */
 
 .container {
   background-color: azure;
   padding: 50px;
+}
+
+li.list-3 {
+  font-size: 90px;
 }
 
 div.box-1 {
@@ -48,6 +54,8 @@ div.box-2 {
   height: 80px;
   background-color: yellow;
 }
+
+/* Nomor 8 */
 
 div.box-1 > p {
   color: white;
@@ -75,6 +83,8 @@ div.box-3 > p {
   font-size: 60px;
 }
 
+/* Nomor 9 */
+
 button {
   width: 100px;
   padding: 20px;
@@ -85,9 +95,11 @@ button {
 
 button:hover {
   color: white;
-  background-color: blue;
+  background-color: var(--text-blue);
   cursor: pointer;
 }
+
+/* Nomor 10 */
 
 header > p::before {
   content: "First Paragraph This: ";
@@ -101,17 +113,22 @@ body > p::first-line {
   color: black;
 }
 
+/* Nomor 11 */
+
 .box-1 {
   position: relative;
   left: 100px;
   top: 20px;
 }
+/* Nomor 12 */
 
 .box-2 {
   position: absolute;
   left: 250px;
   top: 330px;
 }
+
+/* Nomor 13 */
 
 nav {
   color: black;
@@ -125,6 +142,8 @@ nav {
 main {
   min-height: 120vh;
 }
+
+/* Nomor 14 */
 
 button.circle {
   width: 60px;
