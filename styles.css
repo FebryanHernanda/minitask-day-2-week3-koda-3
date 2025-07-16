@@ -107,3 +107,16 @@ body > p::first-line {
   left: 150px;
   top: 300px;
 }
+
+nav {
+  color: black;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+body {
+  min-height: 200vh;
+}
