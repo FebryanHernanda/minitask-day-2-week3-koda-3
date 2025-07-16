@@ -14,3 +14,16 @@ p {
   font-size: 24px;
   color: var(--text-gray);
 }
+
+li {
+  background-color: aqua;
+}
+
+#list-1 {
+  font-size: 30px;
+}
+
+.list-2 {
+  font-size: 60px;
+  font-weight: bolder;
+}
