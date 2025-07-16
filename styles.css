@@ -99,4 +99,11 @@ body > p::first-line {
 .box-1 {
   position: relative;
   left: 100px;
+  top: 20px;
+}
+
+.box-2 {
+  position: absolute;
+  left: 150px;
+  top: 300px;
 }
