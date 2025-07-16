@@ -90,7 +90,13 @@ body > p::before {
 body > p::after {
   content: "Last Paragraph This ";
   text-decoration: underline;
+  color: black;
 }
 body > p::first-line {
   color: black;
+}
+
+.box-1 {
+  position: relative;
+  left: 100px;
 }
