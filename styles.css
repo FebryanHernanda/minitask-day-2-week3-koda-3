@@ -69,3 +69,17 @@ div.box-3 > p {
   color: black;
   font-size: 60px;
 }
+
+button {
+  width: 100px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+}
+
+button:hover {
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
