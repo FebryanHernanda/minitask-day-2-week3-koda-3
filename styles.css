@@ -120,3 +120,22 @@ nav {
 body {
   min-height: 200vh;
 }
+
+button.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: black;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+#arrow {
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  top: -8px;
+  right: 3px;
+  /* font-size: 50px; */
+}
